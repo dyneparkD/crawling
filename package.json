@@ -1,0 +1,29 @@
+{
+  "name": "crawling",
+  "version": "1.0.0",
+  "description": "webtoon crawling",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -L server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyneparkD/crawling.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyneparkD/crawling/issues"
+  },
+  "homepage": "https://github.com/dyneparkD/crawling#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "node-cache": "^5.1.2",
+    "node-schedule": "^2.1.0"
+  }
+}
